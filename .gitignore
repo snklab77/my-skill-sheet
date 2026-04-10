@@ -2,3 +2,6 @@ _site/
 .jekyll-cache/
 docs/vendor/
 docs/.bundle/
+
+# ローカル専用（AI とのやり取りメモなど、コミットしない）
+local/
