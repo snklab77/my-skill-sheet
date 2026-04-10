@@ -1,8 +1,10 @@
-# スキルシート（202603）
+# スキルシート（202604）
 
 ## 基本情報
 
 - 技術者名：S・N
+- スキルシート版：202604
+- 最終更新：2026-04-10 #3
 - 居住地：福島県岩瀬郡
 - 最終学歴：東京モード学園 ビジネス学科
 - エンジニアに転職する前の職業: ロケーションコーディネーター・ロケバスドライバー (PV 雑誌 CM等)
@@ -270,7 +272,9 @@
 
 ### 6.10 2007〜2010：Webシステム（会員/予約/求人/配信/CMS等）
 
-- 内容：既存改修〜新規作成、環境構築、動作確認/総合テストまで幅広く対応
+- 技術：PHP / MySQL / Apache（LAMP）を中心に、HTML / CSS / JavaScript（フロント）。案件により Perl・Java 等を含む既存構成への追従・改修・保守
+- IDE: Eclipse使用
+- 内容：会員登録・認証・マイページ、予約枠・カレンダー連携、求人票・応募フォーム、メール配信（HTML/テキスト）、CMS による記事・ページ管理など、各ドメインに沿った画面・サーバ・DB の実装。既存改修から新規構築まで対応し、環境構築、単体〜結合テスト、動作確認/総合テストまで幅広く担当
 
 ---
 
@@ -296,15 +300,17 @@
 - リアルタイムWEB APIの設計・開発と、クレジットセンタ連携のI/F調整〜接続検証までを担当
 - POSベンダ/加盟店/社内の三者調整を行い、仕様取りまとめ〜運用定着まで推進
 - 監視（Nagios）導入や運用手順整備により、障害対応・運用の安定化を推進
+- PCIDSS・Pマーク対応として、セキュリティ要件に基づく設計・実装・運用改善に従事
 
 ### プライベートでの勉強・趣味
 
 - ローカルLLMを自PCに構築して実際に扱えるかどうかをテスト等を行った
   - メモリが64GBあってもすぐにパンクしてしまいやむなく中止
 - SPA構成(React)フロントエンドのSEO効果を高めるためにSSR\SSG(Nextjs)化する為の研究
-- RaspiZero Pytonを用いた自作スマートミラーの作成(DIY)
+- RaspiZero Pythonを用いた自作スマートミラーの作成(DIY)
   - [https://github.com/snklab77/smartMirror](https://github.com/snklab77/smartMirror)
 - RaspberryPiを用いて温度・湿度管理を行い、水質管理(自動換水・給水)を同時に行う循環型大型熱帯魚水槽装置の作成(DIY)
   - [https://www.youtube.com/watch?v=S_pXP_Pupsc](https://www.youtube.com/watch?v=S_pXP_Pupsc)
 - 現在福島の山奥で古民家を基礎から解体、再構成を行い住みながら再生を行っています
+  - [https://www.youtube.com/channel/UCSyPEguFQuB2S_sB0IaXtew](https://www.youtube.com/channel/UCSyPEguFQuB2S_sB0IaXtew)
 
