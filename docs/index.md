@@ -31,4 +31,9 @@ title: スキルシート
 職務用スキルシートの本文は、次のリンクからご覧ください。
 
 {% assign ss = site.data.skill_sheet %}
-**[スキルシート全文（Markdown）]({{ site.github.repository_url }}/blob/{{ site.github.default_branch }}/{{ ss.file }})**
+{% assign gh_branch = site.github.default_branch %}
+{% if gh_branch == nil or gh_branch == "" %}
+{% assign gh_branch = "main" %}
+{% endif %}
+{% comment %} site.github.* が空だと相対リンク化され tree/ファイル名 扱いで 404 になるため、blob は絶対 URL で組む {% endcomment %}
+**[スキルシート全文（Markdown）](https://github.com/snklab77/my-skill-sheet/blob/{{ gh_branch }}/{{ ss.file }})**

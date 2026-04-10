@@ -1,3 +1,5 @@
 title: スキルシート
 description: S・N — 職務用スキルシート
 theme: jekyll-theme-minimal
+# jekyll-github-metadata 用（Pages ビルドで site.github を安定させる）
+repository: snklab77/my-skill-sheet
