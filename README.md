@@ -55,7 +55,7 @@ bundle exec jekyll serve
 
 ブラウザで **http://127.0.0.1:4000/**（表示に従う）
 
-本番と同じ `baseurl`（`/my-skill-sheet`）で見る場合:
+GitHub 上と同じ `baseurl`（`/my-skill-sheet`）で見る場合:
 
 ```bash
 bundle exec jekyll serve --baseurl /my-skill-sheet
